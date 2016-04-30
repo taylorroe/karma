@@ -1,7 +1,46 @@
 body {
 	background: lightgrey;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #838994;
+	letter-spacing: 0.03em;
+	-webkit-font-smoothing: subpixel-antialiased;
 }
 
-div {
-	border: 1px #999;
+.top-navigation {
+    background-color: #fff;
+}
+.top-navigation > .content {
+    width: 970px;
+    height: 70px;
+    margin: 0 auto;
+   	padding: 0px 15px;
+}
+
+.links {
+	margin-top: -50px;
+	padding-left: 250px;
+	font-weight: 300;
+}
+
+.links > li {
+	display: inline-block;
+	list-style-type: none;
+	padding-left: 15px;
+}
+
+.top-navigation .links > .active {
+	color: #4c5058;
+	font-weight: 500;
+}
+
+.top-navigation .links > .active:hover,
+.top-navigation .links > li:hover{
+	cursor: pointer;
+	color: #333333;
+}
+
+.logo {
+	width: 26px;
+	height: 70px;
 }
