@@ -7,12 +7,16 @@ html {
 
 body {
 	background: lightgrey;
-
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
 }
 
 .top-navigation {
     background-color: #fff;
+	position: fixed;
+	width: 100%;
 }
+
 .top-navigation > .content {
     width: 970px;
     height: 70px;
@@ -25,8 +29,6 @@ body {
 	margin-top: -50px;
 	padding-left: 250px;
 	font-weight: 300;
-	font-family: 'Roboto', sans-serif;
-	font-size: 16px;
 	color: #838994;
 	letter-spacing: 0.03em;
 	-webkit-font-smoothing: subpixel-antialiased;
@@ -52,3 +54,33 @@ body {
 	width: 26px;
 	height: 70px;
 }
+
+.introduction {
+	text-align: center;
+	color: #fff;
+	background-image: url(../img/first-background.jpg);
+	background-position: 50%;
+	height: 45.938rem;
+	font-weight: 300;
+}
+
+.intro-language {
+	font-size: 3.125rem;
+	padding-top: 6.5em;
+}
+
+.introduction > h3 {
+    margin-top: 1.25rem;
+    font-size: 1.563rem;
+}
+
+.learn-button {
+	border-radius: 5px;
+    background-color: #f15a29;
+    border-color: #f15a29;
+}
+
+
+
+background-color: #d9400e;
+    border-color: #cf3d0e;
