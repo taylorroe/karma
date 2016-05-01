@@ -9,6 +9,7 @@ body {
 	background: lightgrey;
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
+	font-weight: 300;
 }
 
 .top-navigation {
@@ -17,7 +18,8 @@ body {
 	width: 100%;
 }
 
-.top-navigation > .content {
+.top-navigation > .content,
+.introduction > .content {
     width: 970px;
     height: 70px;
     margin: 0 auto;
@@ -28,7 +30,6 @@ body {
 /*	float: right; */
 	margin-top: -50px;
 	padding-left: 250px;
-	font-weight: 300;
 	color: #838994;
 	letter-spacing: 0.03em;
 	-webkit-font-smoothing: subpixel-antialiased;
@@ -61,7 +62,6 @@ body {
 	background-image: url(../img/first-background.jpg);
 	background-position: 50%;
 	height: 45.938rem;
-	font-weight: 300;
 }
 
 .intro-language {
@@ -74,13 +74,20 @@ body {
     font-size: 1.563rem;
 }
 
-.learn-button {
+.introduction .learn-button {
 	border-radius: 5px;
+	width: 9.688rem;
     background-color: #f15a29;
     border-color: #f15a29;
+    padding: 10px 20px;
+    color: white;
+    font-size: 1.25rem;
+    border-style: none;
 }
 
+button {
 
+}
 
 background-color: #d9400e;
     border-color: #cf3d0e;
