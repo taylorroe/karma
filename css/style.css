@@ -6,20 +6,18 @@ html {
 }
 
 body {
-	background: lightgrey;
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
-	font-weight: 300;
 }
 
 .top-navigation {
     background-color: #fff;
 	position: fixed;
 	width: 100%;
+	z-index: 999;
 }
 
-.top-navigation > .content,
-.introduction > .content {
+.content {
     width: 970px;
     height: 70px;
     margin: 0 auto;
@@ -32,18 +30,18 @@ body {
 	padding-left: 250px;
 	color: #838994;
 	letter-spacing: 0.03em;
+	font-weight: 300;
 	-webkit-font-smoothing: subpixel-antialiased;
 }
 
-.links > li {
+.links > li,
+.img-list > ul {
 	display: inline-block;
 	list-style-type: none;
-	margin-left: 25px;
 }
 
-.top-navigation .links > .active {
-	color: #4c5058;
-	font-weight: 500;
+.links > li {
+	margin-left: 25px;
 }
 
 .top-navigation .links > li:hover{
@@ -56,22 +54,30 @@ body {
 	height: 70px;
 }
 
-.introduction {
+.introduction,
+.needs {
 	text-align: center;
 	color: #fff;
+	font-weight: 300;
+}
+
+.introduction {
 	background-image: url(../img/first-background.jpg);
 	background-position: 50%;
 	height: 45.938rem;
+	overflow: auto;
 }
 
-.intro-language {
+.introduction h1 {
 	font-size: 3.125rem;
-	padding-top: 6.5em;
+	margin-top: 17.5rem;
+	font-weight: 300;
 }
 
-.introduction > h3 {
-    margin-top: 1.25rem;
+.introduction h3 {
     font-size: 1.563rem;
+    margin-top: .5rem;
+    font-weight: 300;
 }
 
 .introduction .learn-button {
@@ -83,11 +89,38 @@ body {
     color: white;
     font-size: 1.25rem;
     border-style: none;
+    font-weight: 300;
 }
 
-button {
-
+.needs {
+	background-color: #fff;
+	color: #000;
+	font-weight: 300;
 }
 
-background-color: #d9400e;
-    border-color: #cf3d0e;
+.needs h2 {
+	font-size: 2.75rem;
+	font-weight: 300;
+}
+
+.needs h3 {
+	font-size: 1.563rem;
+	font-weight: 300;
+}
+
+.img-needs {
+	height: 127px;
+	width: 127px;
+}
+
+.needs ul {
+    margin-left: 5em;
+    width: 775px;
+}
+
+.img-list > li {
+	display: inline-block;
+	text-decoration: none;
+	float: left;
+	width: 33.3%;
+}
